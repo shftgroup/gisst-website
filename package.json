@@ -1,0 +1,22 @@
+{
+  "name": "gisst-website",
+  "version": "1.0.0",
+  "description": "This is the public source code for the NEH-funded GISST project's website. The live site will be located at https://gisst.dev",
+  "main": ".eleventy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "npx sass scss:_site/css --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
+    "build": "npx eleventy --pathprefix=gisst-website; npx sass scss:_site/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-navigation": "^0.3.5",
+    "bootstrap": "^5.3.2",
+    "sass": "^1.69.5"
+  }
+}
