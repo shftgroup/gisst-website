@@ -8,7 +8,7 @@
     "watch:sass": "npx sass scss:_site/css --watch",
     "serve": "npx eleventy --serve",
     "debug": "DEBUG=* npx eleventy",
-    "build": "npx eleventy --pathprefix=gisst-website; npx sass scss:_site/css"
+    "build": "npx eleventy; npx sass scss:_site/css"
   },
   "keywords": [],
   "author": "",
