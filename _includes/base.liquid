@@ -8,41 +8,35 @@
         <title>{{ title }}</title>
     </head>
     <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container px-5">
-                <a class="navbar-brand" href="#">GISST</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    {% assign navPages = collections.all | eleventyNavigation %}
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        {%- for entry in navPages %}
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ entry | url }}">{{ entry.title }}</a>
-                            </li>
+    <!-- Collapsible sidebar taken from: https://stackoverflow.com/questions/48472771/bootstrap-responsive-sidebar-menu-to-top-navbar -->
+    <div class="container-fluid overflow-hidden">
+        <div class="row vh-100 overflow-auto">
+            <div class="col-12 col-sm-3 col-xl-2 px-sm-2 px-0 bg-dark d-flex sticky-top">
+                <div class="d-flex flex-sm-column flex-row flex-grow-1 align-items-center align-items-sm-start px-3 pt-2 text-white">
+                    <a href="/" class="d-flex align-items-center pb-sm-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                        <span class="fs-5">G<span class="d-none d-sm-inline">ISST</span></span>
+                    </a>
+                    <ul class="nav nav-pills flex-sm-column flex-row flex-nowrap flex-shrink-1 flex-sm-grow-0 flex-grow-1 mb-sm-auto mb-0 justify-content-center align-items-center align-items-sm-start" id="menu">
+                        {% assign sideNavPages = collections.all |  eleventyNavigation %}
+                        {%- for entry in sideNavPages %}
+                        <li class="nav-item">
+                            <a href="{{ entry.url }}" class="nav-link px-sm-0 px-2">
+                                <span class="ms-1 d-sm-inline">{{ entry.title }}</span>
+                            </a>
+                        </li>
                         {% endfor %}
+                    </ul>
                 </div>
             </div>
+            <div class="col col-xxl-8 d-flex flex-column h-sm-100">
+                <main class="row overflow-auto">
+                    {{ content }}
+                </main>
+                <footer class="row bg-light py-4 mt-auto">
+                    <div class="col"></div>
+                </footer>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
-            {% assign sideNavPages = collections.all |  eleventyNavigation %}
-            <ul class="nav nav-pills flex-column mb-auto">
-                {%- for entry in sideNavPages %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ entry | url }}">{{ entry.title }}</a>
-                    </li>
-                {% endfor %}
-            </ul>
         </div>
-        <div class="b-divider"></div>
-        <div class="d-flex flex-column bg-light w-100">
-            {{ content  }}
-        </div>
-    </main>
+    </div>
     </body>
 </html>
