@@ -1,0 +1,17 @@
+---
+layout: base
+title: "Gallery"
+eleventyNavigation:
+    key: Examples
+    order: 2
+---
+
+<div class="gisst-container">
+    <div class="gisst-cards">
+    {%- for example in collections.example -%}
+        <div class="gisst-card">
+            <h1><a href="{{ example.url }}">{{ example.data.title }}</a></h1>
+        </div>
+    {%- endfor -%}
+    </div>
+</div>

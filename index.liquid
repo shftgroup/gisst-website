@@ -4,20 +4,78 @@ title: "The Game and Interactive Software Scholarship Toolkit (GISST)"
 category: home
 eleventyNavigation:
     key: Home
+    order: 1
 tags: static
 ---
-<div class="container-fluid">
-    <div class="col">
-        <h1 class="display-1">The Game and Interactive Software <br> Scholarship Toolkit</h1>
-        <p class="lead">
-            <a href="https://gisst.pomona.edu">GISST</a> is a tool for the reference and citation of software moments. <br>You can use GISST to capture software interactions and game play to share with others.
-        </p>
-        <h2>Overview</h2>
-        <p>
-            The Game and Interactive Software Scholarship Toolkit (GISST) is a US National Endowment for the Humanities (NEH) funded project to develop a framework for the citation and sharing of emulated states and input streams. GISST allows a user to load files and games into an emulator (either locally or in-browser), record their interactions with it, and then share linkable citations to “replays” of user input as well as the emulator’s underlying memory states. This enables embedding of curated emulator states and replays into online articles, as well as canonical URI references to specific states running on specific architectures.</p>
-
-        <p>Currently, the system supports many common computer game systems through the Retroarch framework, as well as 32-bit x86 systems. The project is also developing a set of targeted case studies into computer games, architectural design software, e-literature, and other software studies domains in addition to GISST’s potential for automating digital preservation workflows.</p>
-
-        <p>Since GISST will allow for quick emulated access to legacy software files, it could be used for validation of ingested digital objects, recording of data-access workflows, and comparisons of digital objects running on different, yet related, architectures, or different versions of objects running on similar architectures. The system includes a web-based and native application interface, as well as a server side repository to store saved input streams and states. Our goal is create a new ecosystem for sharing and leveraging software-based records for collaborative study and institutional use.</p>
+<header class="bg-dark py-5">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="my-5 text-center text-xl-start">
+                    <h1 class="display-5 fw-bolder text-white mb-2">The Game and Interactive Software Scholarship Toolkit</h1>
+                    <p class="lead fw-normal text-white-50 mb-4">The Game and Interactive Software Scholarship Toolkit (GISST) is a frontend tool and backend repository software that allows for the citation and retrieval of references to computational states and replays.</p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                        <a class="btn btn-secondary btn-lg px-4 me-sm-3" href="https://forms.gle/HBXagSRuJd91uXwb8">Request Access</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 text-center">
+                <gisst-embed src="https://gisst.pomona.edu/data/a435b1d4-ce3a-45d1-a958-f0b0f8095c50?replay=143c178d-9297-423c-9444-a8f53ec84dac" width="600px" height="400px"></gisst-embed>
+                <figcaption class="figure-caption">Click on the image above to start an example performance!</figcaption>
+            </div>
+        </div>
     </div>
-</div>
+</header>
+<section class="py-5" id="features">
+    <div class="container px-5 my-5">
+        <div class="row gx-5">
+            <div class="col-lg-4 mb-5 mb-lg-0">
+                <h2 class="fw-bolder mb-0">GISST allows you to manipulate and retrieve software references in exciting new ways.</h2>
+            </div>
+            <div class="col-lg-8">
+                <div class="row gx-5 row-cols-1 row-cols-md-2">
+                    <div class="col mb-5 h-100">
+                        <div class="bg-primary bg-gradient text-white rounded-3 mb-3" style="display: inline-flex; align-items: center; justify-content: center; height: 3rem; width: 3rem; font-size: 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-bookmark" viewBox="0 0 16 16">
+                                <path d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1z"/>
+                            </svg>
+                        </div>
+                        <h2 class="h5">Bookmark Running Programs</h2>
+                        <p>GISST allows you to save a running emulation and retrieve it in a specific state. Both locally on your own machine or in a web browser.</p>
+                    </div>
+                    <div class="col mb-5 h-100">
+                        <div class="bg-primary bg-gradient text-white rounded-3 mb-3" style="display: inline-flex; align-items: center; justify-content: center; height: 3rem; width: 3rem; font-size: 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-camera-reels" viewBox="0 0 16 16">
+                                <path d="M6 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M1 3a2 2 0 1 0 4 0 2 2 0 0 0-4 0"/>
+                                <path d="M9 6h.5a2 2 0 0 1 1.983 1.738l3.11-1.382A1 1 0 0 1 16 7.269v7.462a1 1 0 0 1-1.406.913l-3.111-1.382A2 2 0 0 1 9.5 16H2a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm6 8.73V7.27l-3.5 1.555v4.35l3.5 1.556zM1 8v6a1 1 0 0 0 1 1h7.5a1 1 0 0 0 1-1V8a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
+                                <path d="M9 6a3 3 0 1 0 0-6 3 3 0 0 0 0 6M7 3a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                            </svg>
+                        </div>
+                        <h2 class="h5">Record and Replay Input Performances</h2>
+                        <p>By recording input streams, you can replay performances of specific game play moments or user interactions.</p>
+                    </div>
+                    <div class="col mb-5 mb-md-0 h-100">
+                        <div class="bg-primary bg-gradient text-white rounded-3 mb-3" style="display: inline-flex; align-items: center; justify-content: center; height: 3rem; width: 3rem; font-size: 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-blockquote-left" viewBox="0 0 16 16">
+                                <path d="M2.5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1zm5 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h6a.5.5 0 0 0 0-1zm-5 3a.5.5 0 0 0 0 1h11a.5.5 0 0 0 0-1zm.79-5.373c.112-.078.26-.17.444-.275L3.524 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282c.024-.203.065-.37.123-.498a1.38 1.38 0 0 1 .252-.37 1.94 1.94 0 0 1 .346-.298zm2.167 0c.113-.078.262-.17.445-.275L5.692 6c-.122.074-.272.17-.452.287-.18.117-.35.26-.51.428a2.425 2.425 0 0 0-.398.562c-.11.207-.164.438-.164.692 0 .36.072.65.217.873.144.219.385.328.72.328.215 0 .383-.07.504-.211a.697.697 0 0 0 .188-.463c0-.23-.07-.404-.211-.521-.137-.121-.326-.182-.568-.182h-.282a1.75 1.75 0 0 1 .118-.492c.058-.13.144-.254.257-.375a1.94 1.94 0 0 1 .346-.3z"/>
+                            </svg>
+                        </div>
+                        <h2 class="h5">Generate Citations for Software Moments</h2>
+                        <p>All saved performances and states are centrally stored in a repository to allow for citation in personal and scholarly contexts.</p>
+                    </div>
+                    <div class="col h-100">
+                        <div class="bg-primary bg-gradient text-white rounded-3 mb-3" style="display: inline-flex; align-items: center; justify-content: center; height: 3rem; width: 3rem; font-size: 1.5rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" class="bi bi-share" viewBox="0 0 16 16">
+                                <path d="M13.5 1a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5m-8.5 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m11 5.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+                            </svg>
+                        </div>
+                        <h2 class="h5">Embed and Share GISST Created Resources</h2>
+                        <p>GISST provides for embedding all created states and performances in any HTML canvas. You can put running, bookmarked programs in any web-accessible context.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script type="module" src="https://gisst.pomona.edu/embed/embed.js"></script>
+
