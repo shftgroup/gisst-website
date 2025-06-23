@@ -1,14 +1,14 @@
 ---
-layout: base
+layout: gallery_base 
 title: "RPG Perspectives"
+gallery_title: "RPG Perspectives"
+subtitle: "The role of perspective in RPG level design"
 eleventyNavigation:
     key: RPGPerspective
     title: RPG Perspectives 
     parent: Examples
 tags: example
 ---
-
-# The role of perspective in RPG level design
 
     Typically, there are four main “camera” perspectives in early 2-D games: the first-person
 view (Flight Simulator), the side view (Mario), the top-down view (any early digital chess game),
@@ -86,18 +86,18 @@ genre like first-person shooters where the perspective essentially is the main m
 this essay illustrates some of the experimental ways game developers played with computing
 capabilities in the late 1980s and early 1990s.
 
-[1]: https://gisst.pomona.edu/play/4d94b879-4444-47df-9872-1d095b3c84dc?replay=4a528a63-7a51-4a48-bd7b-c1632b7b6b43 (Wizardry: Knight of Diamond’s party screen, maze exploration, and combat screen.)
+[1]: https://gisst.pomona.edu/data/4d94b879-4444-47df-9872-1d095b3c84dc?replay=4a528a63-7a51-4a48-bd7b-c1632b7b6b43 (Wizardry: Knight of Diamond’s party screen, maze exploration, and combat screen.)
 
-[2]: https://gisst.pomona.edu/play/f85d1fef-7df9-49dc-83a5-a5308935420b?replay=2020aaba-51f6-4f66-b13d-60656e59b165 (Earthbound’s 1st-person combat screen.)
+[2]: https://gisst.pomona.edu/data/f85d1fef-7df9-49dc-83a5-a5308935420b?replay=2020aaba-51f6-4f66-b13d-60656e59b165 (Earthbound’s 1st-person combat screen.)
 
-[3]: https://gisst.pomona.edu/play/22c82cb3-4943-4cfa-8708-8d31670c76c9?replay=9ce2a1d7-ca05-4d2a-90e2-e351851ee639 (Example of Ultima: Quest of the Avatar’s perspective in exploration and combat.)
+[3]: https://gisst.pomona.edu/data/22c82cb3-4943-4cfa-8708-8d31670c76c9?replay=9ce2a1d7-ca05-4d2a-90e2-e351851ee639 (Example of Ultima: Quest of the Avatar’s perspective in exploration and combat.)
 
-[4]: https://gisst.pomona.edu/play/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=6b48425d-4405-4e5a-bfb8-fdf55734a8c2 (Example of an “in-game” cutscene in Fire Emblem: Thracia 776.)
+[4]: https://gisst.pomona.edu/data/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=6b48425d-4405-4e5a-bfb8-fdf55734a8c2 (Example of an “in-game” cutscene in Fire Emblem: Thracia 776.)
 
-[5]: https://gisst.pomona.edu/play/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=c875bd4e-8b4a-43a6-a6cb-0dcc615dfa8a (Example of how a combat turn plays out in Fire Emblem: Thracia 776.)
+[5]: https://gisst.pomona.edu/data/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=c875bd4e-8b4a-43a6-a6cb-0dcc615dfa8a (Example of how a combat turn plays out in Fire Emblem: Thracia 776.)
 
-[6]: https://gisst.pomona.edu/play/5ea73a46-5cbd-47f8-a2e7-238386fbec55?replay=21a9a43c-0977-4231-8743-4b64186c1a57 (Excerpt from the opening cutscene of Tactics Ogre, which uses the in-game map and sprites.)
+[6]: https://gisst.pomona.edu/data/5ea73a46-5cbd-47f8-a2e7-238386fbec55?replay=21a9a43c-0977-4231-8743-4b64186c1a57 (Excerpt from the opening cutscene of Tactics Ogre, which uses the in-game map and sprites.)
 
-[7]: https://gisst.pomona.edu/play/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=19da7bbd-ea9d-4485-b9ec-73bf3b7485b7 (Excerpt from the opening cutscene of Fire Emblem: Thracia 776, which uses still images.)
+[7]: https://gisst.pomona.edu/data/95c389f0-5e44-4de7-b55c-7027b1d2ad38?replay=19da7bbd-ea9d-4485-b9ec-73bf3b7485b7 (Excerpt from the opening cutscene of Fire Emblem: Thracia 776, which uses still images.)
 
-[8]: https://gisst.pomona.edu/play/5ea73a46-5cbd-47f8-a2e7-238386fbec55?replay=b746e074-b4d9-4842-af52-6e70e8d060a0 (Short example of Tactics Ogre’s vertical map and character facing mechanics.)
+[8]: https://gisst.pomona.edu/data/5ea73a46-5cbd-47f8-a2e7-238386fbec55?replay=b746e074-b4d9-4842-af52-6e70e8d060a0 (Short example of Tactics Ogre’s vertical map and character facing mechanics.)
