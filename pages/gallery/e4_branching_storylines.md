@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: gallery_base
 title: "Branching Storylines and Customization"
 eleventyNavigation:
     key: BranchingStorylines
