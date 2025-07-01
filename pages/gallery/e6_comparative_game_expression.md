@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: gallery_base
 title: "Comparative Game Expression"
 eleventyNavigation:
     key: PokemonRedComparativeGameExpression

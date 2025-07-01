@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: gallery_base
 title: "Jiggle Physics"
 eleventyNavigation:
     key: Jiggle Physics
