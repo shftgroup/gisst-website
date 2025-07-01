@@ -1,0 +1,19 @@
+{
+  "citations": [
+    {
+      "description": "Placeholder 4 now",
+      "link": "https://gisst.pomona.edu/data/instance?state=state1",
+      "state": "state1",
+      "replay": "",
+      "instance": "instance1"
+    },
+    {
+      "description": "Placeholder 4 now",
+      "link": "https://gisst.pomona.edu/data/instance?replay=replay1",
+      "state": "",
+      "replay": "replay1",
+      "instance": "instance2"
+    }
+  ]
+}
+

@@ -56,3 +56,201 @@
 .gisst-card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
+/* Styling for Gallery Pages */
+.gisst-Gallery-body {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  line-height: 1.6;
+  color: #2c3e50;
+  background-color: #f8f9fa;
+  padding: 0;
+}
+
+.gisst-Gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  min-height: 100vh;
+}
+
+.gisst-Gallery-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.gisst-Gallery-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 300;
+}
+
+.gisst-Gallery-header .subtitle {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  font-style: italic;
+}
+
+.gisst-Gallery-content {
+  padding: 2rem;
+}
+
+.gisst-Gallery-game-info {
+  background: #e8f4f8;
+  border-left: 4px solid #3498db;
+  padding: 1rem;
+  margin: 2rem 0;
+  border-radius: 4px;
+}
+
+.gisst-Gallery-game-info strong {
+  color: #2980b9;
+}
+
+.gisst-Gallery-content h2 {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #3498db;
+}
+
+.gisst-Gallery-content h3 {
+  color: #34495e;
+  font-size: 1.4rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.gisst-Gallery-content p {
+  margin-bottom: 1.2rem;
+  text-align: justify;
+  text-indent: 2rem;
+}
+
+.gisst-Gallery-intro-paragraph {
+  text-indent: 0;
+  font-size: 1.1rem;
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border-left: 4px solid #e74c3c;
+}
+
+.gisst-Gallery-content ol {
+  margin: 1rem 0 1rem 2rem;
+  padding-left: 1rem;
+}
+
+.gisst-Gallery-content li {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.gisst-Gallery-content em {
+  color: #e74c3c;
+  font-weight: 500;
+}
+
+.gisst-Gallery-content a {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 1px dotted #3498db;
+  transition: all 0.3s ease;
+}
+
+.gisst-Gallery-content a:hover {
+  color: #2980b9;
+  border-bottom: 1px solid #2980b9;
+}
+
+.gisst-Gallery-glitch-name {
+  background: #ffe6e6;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-weight: bold;
+  color: #c0392b;
+}
+
+.gisst-Gallery-section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #bdc3c7, transparent);
+  margin: 3rem 0;
+}
+
+.gisst-Gallery-review-section {
+  background: #f1f8ff;
+  padding: 2rem;
+  border-radius: 8px;
+  margin: 2rem 0;
+  border: 1px solid #d4edda;
+}
+
+.gisst-Gallery-bibliography {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 8px;
+  margin-top: 3rem;
+}
+
+.gisst-Gallery-bibliography h2 {
+  border-bottom: 2px solid #6c757d;
+  color: #495057;
+}
+
+.gisst-Gallery-bibliography ol {
+  margin-left: 0;
+  padding-left: 1.5rem;
+}
+
+.gisst-Gallery-bibliography li {
+  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.gisst-Gallery-demo-link {
+  display: inline-block;
+  background: #3498db;
+  color: white !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 4px;
+  border: none !important;
+  margin: 0.2rem;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.gisst-Gallery-demo-link:hover {
+  background: #2980b9;
+  color: white !important;
+}
+
+.gisst-Gallery-highlight-box {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  padding: 1rem;
+  border-radius: 6px;
+  margin: 1rem 0;
+}
+
+/* GISST Gallery Responsive Styling */
+@media (max-width: 768px) {
+  .gisst-Gallery-container {
+    margin: 0;
+    box-shadow: none;
+  }
+
+  .gisst-Gallery-header h1 {
+    font-size: 2rem;
+  }
+
+  .gisst-Gallery-content {
+    padding: 1rem;
+  }
+
+  .gisst-Gallery-content p {
+    text-indent: 1rem;
+  }
+}
