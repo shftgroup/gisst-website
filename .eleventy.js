@@ -1,4 +1,5 @@
 const pluginNavigation = require("@11ty/eleventy-navigation");
+const fs = require("fs");
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.setLiquidOptions({
@@ -33,14 +34,14 @@ module.exports = function(eleventyConfig) {
 
     // Load existing citations
     let citations = [];
-    if (pluginNavigation.existsSync(filePath)) {
-      citations = JSON.parse(pluginNavigation.readFileSync(filePath));
+    if (fs.existsSync(filePath)) {
+      citations = JSON.parse(fs.readFileSync(filePath));
     }
 
     // Prevent duplicates
     if (!citations.some((c) => c.link === link)) {
       citations.push(citationObj);
-      pluginNavigation.writeFileSync(filePath, JSON.stringify({ citations }, null, 2));
+      fs.writeFileSync(filePath, JSON.stringify({ citations }, null, 2));
     }
 
     // Return the actual HTML link element
