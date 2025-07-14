@@ -35,7 +35,7 @@ module.exports = function(eleventyConfig) {
     // Load existing citations
     let citations = [];
     if (fs.existsSync(filePath)) {
-      citations = JSON.parse(fs.readFileSync(filePath));
+      citations = JSON.parse(fs.readFileSync(filePath)).citations || [];
     }
 
     // Prevent duplicates
