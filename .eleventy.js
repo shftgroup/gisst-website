@@ -12,6 +12,10 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPlugin(pluginNavigation);
 
+
+    eleventyConfig.addFilter("embedCitationAnchorTag", function (citeObj, nodeText) {
+        return `<a class="gisst-Gallery-demo-link" title="${citeObj.description}" href="${citeObj.link}">${nodeText}</a>`
+    });
     // FILTER FOR CITATIONS, ADDED BY JASMINE: Custom shortcode or filter that extracts citation info and writes JSON
     // TO USE, in html add {% registerCitation "Naming Terra, Final Fantasy III (USA), SNES" "https://gisst.pomona.edu/data/cc231e2d-3ff6-4b18-9a61-d230d95444c5?state=76f09896-7030-4968-a486-5f14717be5b8" "e4_branching_storylines" %}
     eleventyConfig.addShortcode("registerCitation", function (description, link, pageSlug) {
