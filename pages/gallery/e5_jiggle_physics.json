@@ -1,0 +1,18 @@
+{
+  "citations": [
+    {
+      "description": "Character select screen, Fatal Fury 2 (USA), SNES",
+      "link": "https://gisst.pomona.edu/data/2ecb9dd5-4bd0-4451-b123-8422e5e5f7e4?state=a0506e3b-0fd9-4b73-985f-4f0260afaa88",
+      "state": "a0506e3b-0fd9-4b73-985f-4f0260afaa88",
+      "replay": "",
+      "instance": "2ecb9dd5-4bd0-4451-b123-8422e5e5f7e4"
+    },
+    {
+      "description": "Character select screen, Mortal Kombat 3 (USA), SNES",
+      "link": "https://gisst.pomona.edu/data/328fbda0-2609-432e-a580-f84732cfa090?replay=4413cc40-3a08-4b8d-9ace-8a99a90b2dd4",
+      "state": "",
+      "replay": "4413cc40-3a08-4b8d-9ace-8a99a90b2dd4",
+      "instance": "328fbda0-2609-432e-a580-f84732cfa090"
+    }
+  ]
+}

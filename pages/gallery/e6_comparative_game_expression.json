@@ -1,0 +1,81 @@
+{
+  "citations": [
+    {
+      "description": "Intro to FIFA International Soccer (USA), SNES",
+      "link": "https://gisst.pomona.edu/play/8655fee7-47d2-4787-a9a9-893c0ab47d62?state=0e3cd477-dfac-4203-996f-94686b000a48",
+      "state": "0e3cd477-dfac-4203-996f-94686b000a48",
+      "replay": "",
+      "instance": "8655fee7-47d2-4787-a9a9-893c0ab47d62"
+    },
+    {
+      "description": "Exhibition Match defeat to Computer Test, FIFA International Soccer (USA), SNES",
+      "link": "https://gisst.pomona.edu/data/8655fee7-47d2-4787-a9a9-893c0ab47d62?replay=88ebf408-e240-4e5f-9110-51af05538e9b",
+      "state": "",
+      "replay": "88ebf408-e240-4e5f-9110-51af05538e9b",
+      "instance": "8655fee7-47d2-4787-a9a9-893c0ab47d62"
+    },
+    {
+      "description": "Mid-game state, Battle Chess (USA), NES",
+      "link": "https://gisst.pomona.edu/data/adfe218d-192e-489d-afc7-072922487d4b?state=923cbc98-f28d-4a1c-a84b-dc430eadbfcf",
+      "state": "923cbc98-f28d-4a1c-a84b-dc430eadbfcf",
+      "replay": "",
+      "instance": "adfe218d-192e-489d-afc7-072922487d4b"
+    },
+    {
+      "description": "Defeated by Computer, Battle Chess (USA), NES",
+      "link": "https://gisst.pomona.edu/data/adfe218d-192e-489d-afc7-072922487d4b?replay=7c95ed33-0dd7-42e2-b0a4-af156afb6455",
+      "state": "",
+      "replay": "7c95ed33-0dd7-42e2-b0a4-af156afb6455",
+      "instance": "adfe218d-192e-489d-afc7-072922487d4b"
+    },
+    {
+      "description": "Intro, Mortal Kombat II (USA, Europe), GB",
+      "link": "https://gisst.pomona.edu/data/19ef903a-84c3-4e0c-8593-96118968c851?state=6619432f-5598-44be-a4fc-371fb7132a7d",
+      "state": "6619432f-5598-44be-a4fc-371fb7132a7d",
+      "replay": "",
+      "instance": "19ef903a-84c3-4e0c-8593-96118968c851"
+    },
+    {
+      "description": "Test Jax vs Kang, Mortal Kombat II (USA, Europe), GB",
+      "link": "https://gisst.pomona.edu/data/19ef903a-84c3-4e0c-8593-96118968c851?replay=a20c1e35-ff6a-442b-9ff1-a27397c8a204",
+      "state": "",
+      "replay": "a20c1e35-ff6a-442b-9ff1-a27397c8a204",
+      "instance": "19ef903a-84c3-4e0c-8593-96118968c851"
+    },
+    {
+      "description": "Intro, Mortal Kombat 3 (Europe), GB",
+      "link": "https://gisst.pomona.edu/data/945cfb21-047b-4bff-b375-712074ded6fa?state=9abd065e-f297-4c56-9b5f-ec4df043c4ba",
+      "state": "9abd065e-f297-4c56-9b5f-ec4df043c4ba",
+      "replay": "",
+      "instance": "945cfb21-047b-4bff-b375-712074ded6fa"
+    },
+    {
+      "description": "Later game fight, Mortal Kombat 3 (Europe), GB",
+      "link": "https://gisst.pomona.edu/data/945cfb21-047b-4bff-b375-712074ded6fa?replay=48ce67d6-0236-416b-a2aa-14ad91796a2a",
+      "state": "",
+      "replay": "48ce67d6-0236-416b-a2aa-14ad91796a2a",
+      "instance": "945cfb21-047b-4bff-b375-712074ded6fa"
+    },
+    {
+      "description": "Computer outsmarts human, Chessmaster, The (Japan), GB",
+      "link": "https://gisst.pomona.edu/data/69d06129-d653-4fd9-ae37-c7a51d653db7?replay=c2e8682a-fc3f-446e-a33e-d32144d59d2e",
+      "state": "",
+      "replay": "c2e8682a-fc3f-446e-a33e-d32144d59d2e",
+      "instance": "69d06129-d653-4fd9-ae37-c7a51d653db7"
+    },
+    {
+      "description": "Start of game, Space Invaders - The Original Game (Japan), SNES",
+      "link": "https://gisst.pomona.edu/data/3f491357-d2ba-418f-90ea-78a27e7e9010?state=5596c495-821a-49c6-b409-bbeb5560aa2b",
+      "state": "5596c495-821a-49c6-b409-bbeb5560aa2b",
+      "replay": "",
+      "instance": "3f491357-d2ba-418f-90ea-78a27e7e9010"
+    },
+    {
+      "description": "Performance, Space Invaders - The Original Game (Japan), SNES",
+      "link": "https://gisst.pomona.edu/data/3f491357-d2ba-418f-90ea-78a27e7e9010?replay=e868241c-0c3e-44bd-a63c-d18cd4620be6",
+      "state": "",
+      "replay": "e868241c-0c3e-44bd-a63c-d18cd4620be6",
+      "instance": "3f491357-d2ba-418f-90ea-78a27e7e9010"
+    }
+  ]
+}
