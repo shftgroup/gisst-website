@@ -1,436 +1,506 @@
 ---
 layout: gallery_base
 title: "FE Tutorial Example"
+gallery_title: "The Importance of Tutorials"
 eleventyNavigation:
     key: FE_Tutorial_Example
     title: FE Tutorial Example
     parent: Examples
 tags: example
 ---
-In the article The Case for Video Game Tutorials, Assassin's Creed game designer Patrice
-Désilets states “The real story of a game is teaching how to play it. Everything else is noise.”
-(Schwerin, 2021). Unlike other forms of media such as books or films, video games are
-interactive experiences that require not only physical controls to be taught to players, but also
-how to engage with different elements of the gameplay. Consequently, tutorials are an integral
-part of video game design, although approaches between games can vastly differ.
-First released in 1990, Fire Emblem is an extensive series of strategy role-playing games
-published by Nintendo. As of 2023, there are seventeen mainline games launched on Nintendo
-systems, spanning the Nintendo Entertainment System to the Nintendo Switch. Despite
-experimenting with mechanics over the course of thirty years of history, every game in the series
-contains the same core gameplay: not unlike chess, players move units of different classes across
-a grid-like map and can attack enemy units within range. Once all of the player's units have
-acted, the player's turn ends and the enemy’s phase begins. The series additionally regularly
-introduces and refines mechanics such as the emblematic Weapon Triangle Advantage system.
-Consequently, the franchise contains extremely varied level design as these grid-like maps must
-effectively tell a story in addition to providing engaging gameplay. With seventeen games worth
-of map designs, Fire Emblem provides a compelling look at how different entries in the series
-approach designing tutorials for similar mechanics despite technological limitations.
-In an analysis of 32 popular FPS games that the authors determined to be representative
-of the genre, Benvenuti et al. (2023) developed a classification framework of 14 parameters for
-assessing tutorial design. The authors deduced that the most popular combination of parameters,
-found across 10 games, included: presence of tutorial, context sensitivity, help availability, text
-usage, voice usage, helping avatar, story integration, command scheme customization and
-controller diagram. The first 4 of the original 14 parameters, tutorial presence (whether the game
-has a tutorial or not), context-sensitivity (whether instructions appear before the game or are
-incorporated directly into the game and appear in-context), freedom (are players locked into
-completing certain actions before continuing), and availability of help (can players access help at
-any time), were drawn from Andersen et al.’s study, “The impact of tutorials on games of
-varying complexity” (2012). To evaluate the effectiveness of these parameters, Andersen et al.
-designed and tested three puzzle games with varying levels of complexity and different
-applications of the aforementioned principles. Based upon the results, the authors offered four
-main conclusions: “Tutorials were only justified in the most complex game”,
-“
-Context-sensitivity can improve engagement”, “Tutorial freedom did not affect player
-behavior”, and “On-demand help harmed and helped player retention”. In other words, tutorials
-have a greater impact on improving player performance and retention in more mechanically
-complex games. Six subsequent parameters in Benvenuti et al.’s framework were drawn from
-Paras’s study “Learning to play: the design of in-game training to enhance videogame
-experience” (2006). This study analysed tutorial implementation into a hockey video game by
-comparing three conditions: control (no instructions besides controller layout diagram),
-before-play (instructions on all aspects of the game are presented before being allowed to play),
-and in-play (context-sensitive instructions). The author found that, while players in the in-play
-group performed better than those in the control group, there was a significant negative
-correlation between enjoyment and number of times users saw the instructions.
-Furthermore, Cao & Liu’s study,
-“Learning to play: understanding in-game tutorials with
-a pilot study on implicit tutorials” (2022), introduces the concept of explicit versus implicit
-design when evaluating in-game tutorials. The authors developed two versions of the same game,
-one where the mechanics were taught by pop-up instructions (explicit), while the other had
-background objects depict arrows to show players what buttons to press in different situations
-(implicit). While participants rated the implicit implementation of the tutorial less boring than the
-explicit tutorial, they also rated it less helpful. Summarily, tutorial design varies significantly
-across games, with even simple parameters, such as how textual instructions are presented,
-impacting player engagement.
-Given the complexity of designing methods to effectively teach players controls and
-mechanics, several papers have been dedicated to isolating common design strategies across
-games. Originally developed in 2008, the Game Approachability Principles (GAP) are a set of
-guidelines designed to assist game developers in the creation of effective tutorials (Desurvire &
-Wiberg, 2015) by drawing upon research in the fields of Human-Computer Interaction and User
-Experience. At the heart of the GAP is the concept of approachability, which the authors define
-as “making games initially more friendly, fun, immersive, and accessible” (169), specifically in
-the case of first-time players. Consequently, the GAP takes inspiration from psychological
-theories of learning to evaluate the effectiveness of different methods of teaching skills to
-players. The 2015 edition of the GAP consists of eleven principles (Figure 1).
+<div class="gisst-Gallery-game-info">
+    <strong>Games:</strong> <em>Fire Elblem: Shadow Dragon and the Blade of Light (FE1)</em>, <em>Fire Emblem Gaiden (FE2)</em>, <em>Fire Emblem: The Blazing Sword (FE7)</em>, <em>Fire Emblem: The Sacred Stones (FE8)</em>
+</div>
 
-<img src="assets/images/example_10_images/image3.png" alt="The GAP List">
-Figure 1. The Game Approachability Principles
+<p>
+    In the article The Case for Video Game Tutorials, Assassin's Creed game designer Patrice
+    Désilets states “The real story of a game is teaching how to play it. Everything else is noise.”
+    (Schwerin, 2021). Unlike other forms of media such as books or films, video games are
+    interactive experiences that require not only physical controls to be taught to players, but also
+    how to engage with different elements of the gameplay. Consequently, tutorials are an integral
+    part of video game design, although approaches between games can vastly differ.
+</p>
 
-In contrast to Desurvire & Wiberg’s focus on approachability, Poretski & Tang’s 2022
-paper, “Press A to Jump: Design Strategies for Video Game Learnability”, instead highlights the
-importance of learnability. While the authors acknowledge the usefulness of approachability to
-easing players into a game, they subsequently state that “
-approachability cannot describe the
-learning aspects that need to support gameplay beyond the first 20 minutes: new and more
-advanced game controls, mechanics, and systems that gradually open themselves to the players”
-(3). In other words, learnability is, in the context of video games, all aspects throughout a game
-that help players gain proficiency with their mechanics. Consequently, Poretski & Tang
-developed a framework of eleven design strategies for learnability (Figure 2). Notably, Poretski
-& Tang divide their framework into three sections, demonstrating how learnability can exist
-outside of the gameplay itself.
+<p>
+    First released in 1990, Fire Emblem is an extensive series of strategy role-playing games
+    published by Nintendo. As of 2023, there are seventeen mainline games launched on Nintendo
+    systems, spanning the Nintendo Entertainment System to the Nintendo Switch. Despite
+    experimenting with mechanics over the course of thirty years of history, every game in the series
+    contains the same core gameplay: not unlike chess, players move units of different classes across
+    a grid-like map and can attack enemy units within range. Once all of the player's units have
+    acted, the player's turn ends and the enemy’s phase begins. The series additionally regularly
+    introduces and refines mechanics such as the emblematic Weapon Triangle Advantage system.
+    Consequently, the franchise contains extremely varied level design as these grid-like maps must
+    effectively tell a story in addition to providing engaging gameplay. With seventeen games worth
+    of map designs, Fire Emblem provides a compelling look at how different entries in the series
+    approach designing tutorials for similar mechanics despite technological limitations.
+</p>
 
-<img src="assets/images/example_10_images/image5.png" alt="Design Strategy Table">
-Figure 2. Framework of design strategies for learnability
+<p>
+    In an analysis of 32 popular FPS games that the authors determined to be representative
+    of the genre, Benvenuti et al. (2023) developed a classification framework of 14 parameters for
+    assessing tutorial design. The authors deduced that the most popular combination of parameters,
+    found across 10 games, included: presence of tutorial, context sensitivity, help availability, text
+    usage, voice usage, helping avatar, story integration, command scheme customization and
+    controller diagram. The first 4 of the original 14 parameters, tutorial presence (whether the game
+    has a tutorial or not), context-sensitivity (whether instructions appear before the game or are
+    incorporated directly into the game and appear in-context), freedom (are players locked into
+    completing certain actions before continuing), and availability of help (can players access help at
+    any time), were drawn from Andersen et al.’s study, “The impact of tutorials on games of
+    varying complexity” (2012). To evaluate the effectiveness of these parameters, Andersen et al.
+    designed and tested three puzzle games with varying levels of complexity and different
+    applications of the aforementioned principles. Based upon the results, the authors offered four
+    main conclusions: “Tutorials were only justified in the most complex game”,
+    “
+    Context-sensitivity can improve engagement”, “Tutorial freedom did not affect player
+    behavior”, and “On-demand help harmed and helped player retention”. In other words, tutorials
+    have a greater impact on improving player performance and retention in more mechanically
+    complex games. Six subsequent parameters in Benvenuti et al.’s framework were drawn from
+    Paras’s study “Learning to play: the design of in-game training to enhance videogame
+    experience” (2006). This study analysed tutorial implementation into a hockey video game by
+    comparing three conditions: control (no instructions besides controller layout diagram),
+    before-play (instructions on all aspects of the game are presented before being allowed to play),
+    and in-play (context-sensitive instructions). The author found that, while players in the in-play
+    group performed better than those in the control group, there was a significant negative
+    correlation between enjoyment and number of times users saw the instructions.
+</p>
 
-Using the frameworks provided by both Desurvire & Wiberg (2015) and Poretski & Tang (2022),
-this paper will utilise The Game and Interactive Software Scholarship Toolkit (GISST) to
-analyse how developers design the first levels in four different entries in the Fire Emblem series
-of games to effectively teach players the mechanics.
-Fire Emblem: Shadow Dragon and the Blade of Light (FE1) was originally released in
-1990 for the Nintendo Entertainment System. As the first game in the Fire Emblem series, FE1
-had the task of introducing players to mechanics that would become series staples. While the
-included manual1 provides direct instructions on navigating menus and what different visual
-elements represent, it does not actually impart to players the skills needed to complete the game
-1https://archive.org/details/fire-emblem-dark-dragon-and-the-blade-of-light-manual/
-successfully. Consequently, the first map (Figure 3) is carefully designed not only to provide the
-player with a safe area for experimentation, but also to guide the player towards making smart
-moves without interrupting their play with direct instruction.
+<p>
+    Furthermore, Cao &amp; Liu’s study,
+    “Learning to play: understanding in-game tutorials with
+    a pilot study on implicit tutorials” (2022), introduces the concept of explicit versus implicit
+    design when evaluating in-game tutorials. The authors developed two versions of the same game,
+    one where the mechanics were taught by pop-up instructions (explicit), while the other had
+    background objects depict arrows to show players what buttons to press in different situations
+    (implicit). While participants rated the implicit implementation of the tutorial less boring than the
+    explicit tutorial, they also rated it less helpful. Summarily, tutorial design varies significantly
+    across games, with even simple parameters, such as how textual instructions are presented,
+    impacting player engagement.
+</p>
 
-<img src="assets/images/example_10_images/image4.png" alt="Map 1">
-Figure 3. Chapter 1: Marth Embarks
+<p>
+    Given the complexity of designing methods to effectively teach players controls and
+    mechanics, several papers have been dedicated to isolating common design strategies across
+    games. Originally developed in 2008, the Game Approachability Principles (GAP) are a set of
+    guidelines designed to assist game developers in the creation of effective tutorials (Desurvire &amp;
+    Wiberg, 2015) by drawing upon research in the fields of Human-Computer Interaction and User
+    Experience. At the heart of the GAP is the concept of approachability, which the authors define
+    as “making games initially more friendly, fun, immersive, and accessible” (169), specifically in
+    the case of first-time players. Consequently, the GAP takes inspiration from psychological
+    theories of learning to evaluate the effectiveness of different methods of teaching skills to
+    players. The 2015 edition of the GAP consists of eleven principles (Figure 1).
+</p>
 
-Throughout the series, Fire Emblem uses the term ‘objective’ to refer to the win
-condition for each map. Objectives can range from defeating all enemies on the map, defeating a
-boss, to surviving a certain number of turns. As the first entry in the Fire Emblem series, FE1
-only makes use of two objectives: Seize (accomplished by occupying a castle tile on a map and
-selecting the requisite command) and Defeat the Boss. While future games would directly state
-the objective as a part of the UI, FE1 instead utilises the Seeding in the Cutscene strategy to
-introduce players to their goal. At the beginning of the map, several of the playable character
-discuss the inciting action of the game’s story - a group of pirates has attacked Talys, the island
-kingdom which has been sheltering main character Marth after the hostile takeover of his country
-of Altea2
-. After being told the situation by the senior knight, Jagen, and Princess of Talys, Caeda,
-2https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=716f8a60-f474-424c-b6
-97-d02b4519baa6
-Marth ends the cutscene by stating “Pirates are no match for us! Let’s head back to the castle to
-rescue the king!”. Players are thus informed of their goal (rescuing the king) organically without
-any need for extraneous instructions.
-First maps are a special case in Fire Emblem as this is the one time when designers know
-exactly what units the player is using in addition to their stats and equipment. In other words,
-they are able to design maps with the knowledge of exactly how much damage each unit will
-deal. This is exemplified in the character of Jagen, a paladin and the player’s sole promoted unit.
-Jagen has access to two weapons, an Iron Sword and a Silver Lance, both of which have specific
-use cases. The Silver Lance has the power to defeat any enemy (aside from the boss) in a single
-round of combat.3 On the other hand, using the Iron Sword will reliably leave an enemy unit with
-2 HP4
-, the perfect amount to let another unit safely get the kill and receive a significant amount
-of experience. This dynamic persists in Fire Emblem: Mystery of the Emblem (FE3) whose first
-map is a remake of the first game’s. In FE3, Jagen’s sole starting weapon is a Silver Lance.
-However, units have been balanced so that, once again, Jagen will leave most enemies with a
-minimal amount of HP5
-. Compare this to Abel, one of two cavaliers (a weaker version of a
-paladin) who, like the majority of the player’s starting units, cannot defeat any enemy in a single
-round of combat.6 Thus, Jagen’s role is clear: He is to be used to either fully remove an enemy
-from play, or to weaken enemies so the player’s other units can safely defeat them. Furthermore,
-as a paladin, Jagen’s range of movement is the greatest among the player’s starting units and he
-starts closest to the enemy units. Consequently, his starting placement allows him to reach the
-3https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=68ea1bd7-481a-4206-9
-b0b-af93e0398f2f
-4https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=68ea1bd7-481a-4206-9
-b0b-af93e0398f2f
-5https://gisst.pomona.edu/play/22e05de7-60b9-4f5f-ab64-51035c5f5294?replay=f3441e76-9b46-4eee-a0
-ef-4826b44425d8
-6https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=a43563e0-cf4f-4781-b9
-47-06f7b07d9b91
-nearest fort7 (a tile that grants the unit occupying it combat bonuses), making him the only
-character that can do so. This is an example of the Invisible Hand principle, where the player is
-guided by cues directly placed in the game world. In other words, Jagen’s placement naturally
-guides the player to use him, the safest unit to experiment with, to first engage with enemies.
-Priests, another staple class in Fire Emblem and the preeminent healers, are often
-introduced very early in the game. However, rather than include a healer as one of the player’s
-starting roster, FE1 has the player recruit a priest towards the end of the map. By visiting the
-final village on the left side of the map, the priest Wrys will join the player’s party8
-. At this point
-in the map, players will have almost certainly defeated all enemies except for the stationary boss
-and the majority of their units will have taken damage. Thus, Wrys’ importance to the gameplay
-is emphasised and players will have the chance to heal before tackling their first boss. Priests are
-not able to heal units that have full HP, so introducing Wrys any earlier would simply leave
-players with a unit unable to take any action other than move. Introducing Wrys late also helps
-keep him safe as players experimenting with movement on the first turn will not be able to
-immediately put him in danger.
-A further important aspect of Fire Emblem map design is pressure. Often, there will be
-some sort of mechanic that encourages players to not play slow and defensively. This first map
-introduces such a mechanic when the player ends their first turn9
-. The Computer’s turn will see
-one enemy pirate on the left side of the map move down to occupy a village, while a thief on the
-right side will move up from an already destroyed village towards another one. This is akin to the
-Demonstration of Type principle in the GAP, where players are shown an example of a mechanic
-7https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=7d02d31a-8ae0-4ec0-8
-2e7-581b78fcd297
-8https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=3d5be633-4d49-4c3d-9
-0ca-d2694fd49e76
-9https://gisst.pomona.edu/play/a0ba0848-215b-44f7-86a0-acce59a877bf?replay=8ccd1a13-45f0-46a5-a9
-9f-d6d927ff4c7f
-to encourage a certain response. The thief’s movement teaches the player several things. One,
-that villages can be targeted by enemy units, and two, thieves will prioritise pillaging villages
-over attacking the player. Even if you leave the thief alone for the first turn, they will not be able
-to reach the village, so even players unfamiliar with how thieves work will have time to deal
-with them on the second turn.
-Despite being the first map in the entire Fire Emblem franchise, the inaugural chapter of
-FE1 is incredibly successful at incorporating the GAP and learnability framework into the map’s
-design to effectively teach players mechanics that will be used throughout Fire Emblem’s history.
-Techniques such as Seeding in the Cutscene, Invisible Hand, and Demonstration of Type are all
-utilised to implicitly communicate important lessons to the player in spite of the constraints
-imposed by the size limitations pertinent to game systems of the time.
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image3.png?raw=true" alt="The GAP List">
+    Figure 1. The Game Approachability Principles
+</div>
 
-<img src="assets/images/example_10_images/image7.png" alt="Act 1: Ram Woods Battle">
-Figure 4. Act 1: Ram Woods Battle
+<p>
+    In contrast to Desurvire &amp; Wiberg’s focus on approachability, Poretski &amp; Tang’s 2022
+    paper, “Press A to Jump: Design Strategies for Video Game Learnability”, instead highlights the
+    importance of learnability. While the authors acknowledge the usefulness of approachability to
+    easing players into a game, they subsequently state that “
+    approachability cannot describe the
+    learning aspects that need to support gameplay beyond the first 20 minutes: new and more
+    advanced game controls, mechanics, and systems that gradually open themselves to the players”
+    (3). In other words, learnability is, in the context of video games, all aspects throughout a game
+    that help players gain proficiency with their mechanics. Consequently, Poretski &amp; Tang
+    developed a framework of eleven design strategies for learnability (Figure 2). Notably, Poretski
+    &amp; Tang divide their framework into three sections, demonstrating how learnability can exist
+    outside of the gameplay itself.
+</p>
 
-Released two years after FE1 in 1992, Fire Emblem Gaiden (FE2) was presented as a
-side-story to its predecessor with an entirely new cast and set on a different continent (Figure 4).
-Even more so than future titles in the franchise, FE2 experimented heavily with its mechanics
-and deviated in quite a few ways from its predecessor, including in how the developers
-abandoned many of the elements that made FE1’s first map successful.
-While FE1’s map contains varied terrain, including forests, mountains, water, and several
-different interactable buildings, FE2’s map only makes use of two types of unique tiles: forests
-and healing tiles. The map is additionally far smaller than that of FE1’s, limiting the player’s
-ability to make meaningful decisions with movement. Although the predominantly green colour
-palette highlights the pink healing tiles in the upper left corner, there is no text in the game that
-explains to the player what they are or how they work. Furthermore, these tiles are placed far
-enough away that it would take any unit at least two turns to reach them10
-. Given that the goal of
-this map is to defeat all the enemies, it is unlikely that the player will have any incentive to take
-the time to explore what these tiles do. In FE2, if an enemy is sufficiently weakened, their AI
-will switch from prioritising attacking any units in range to reaching the nearest healing tile11
-.
-However, it is improbable that any player is going to allow a low-HP enemy to escape for several
-turns to make it all the way to the top left corner and wait to restore HP. Consequently, the
-placement of these tiles does a poor job at teaching the players what they do and what their role
-in a map’s design is.
-Whereas FE1’s first map gives the player access to six classes across seven starting units
-(and additionally the priest class supplied by Wrys if he is recruited), FE2 only provides three
-10https://gisst.pomona.edu/play/a6f6cb46-e05b-42f3-901d-eedb2a185d16?replay=6ecd78e9-c6ec-47d2-9
-4c1-cdacae6edd0e
-11https://gisst.pomona.edu/play/a6f6cb46-e05b-42f3-901d-eedb2a185d16?replay=68ca5b96-b505-4d47-9
-ae2-014c6baf5f40
-classes spread across five units. Three of the units are villagers, a starting class with poor stats
-but flexible promotion (Fire Emblem’s manner of upgrading classes) options. The other two units
-are Alm, a level 1 fighter, and Lukas, a level 2 soldier and the closest equivalent to Jagen on this
-map. In other words, all five starting units are very functionally similar: they are all foot soldiers
-who have limited movement capabilities and short-ranged weapons. In comparison, FE1
-introduces armoured units (slow with low movement range but high defense), archers (wield
-ranged weapons such as bows), and pegasus knights (can move over any kind of terrain but weak
-to bows). Consequently, players are given a much more limited introduction to the types of
-mechanics they will encounter across the game.
-This introductory map does make use of Invisible Hand principle in a similar fashion to
-FE1 where the strongest units have a starting position that results in their max movement range
-corresponding with the placement of the nearest forest tiles. Thus, players are drawn to placing
-their units there and naturally discovering how units placed with forests are given avoidance
-bonuses12
-. As neither of these units are strong enough to fully defeat enemy units in a single turn
-(barring a lucky critical hit), this positioning is ideal for creating a situation where weaker units
-can finish foes off for experience points. Consequently, the successes of FE2’s first map are in
-the places in which it utilises the same design principles as FE1 such as the Invisible Hand.
-While FE1 makes use of a large but carefully structured design to slowly guide the players
-through a path that introduces different mechanics consecutively, FE2’s much smaller map
-struggles to properly communicate how these gameplay systems work.
-12https://gisst.pomona.edu/play/a6f6cb46-e05b-42f3-901d-eedb2a185d16?replay=e25c515f-f23a-4a87-86
-c7-fc4787201ba8
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image5.png?raw=true" alt="Design Strategy Table">
+    Figure 2. Framework of design strategies for learnability
+</div>
 
-<img src="assets/images/example_10_images/image6.png" alt="Prologue: A Girl from the Plains">
-Figure 5. Prologue: A Girl from the Plains
+<p>
+    Using the frameworks provided by both Desurvire &amp; Wiberg (2015) and Poretski &amp; Tang (2022),
+    this paper will utilise The Game and Interactive Software Scholarship Toolkit (GISST) to
+    analyse how developers design the first levels in four different entries in the Fire Emblem series
+    of games to effectively teach players the mechanics.
+</p>
 
-Fire Emblem: The Blazing Sword (FE7), released internationally for the Game Boy
-Advance in 2003 as just Fire Emblem, was the first game in the franchise to be published outside
-of Japan. While FE6, Fire Emblem’s first foray into handheld systems contained an optional
-tutorial, FE7 marked the first time a Fire Emblem game was released with a dedicated tutorial
-level. In fact, the first ten chapters of the game, a section known as Lyn Mode (named after the
-protagonist of these chapters, Lyn), serves as an extended how-to manual for the game’s
-mechanics. Every chapter in this introductory section of the game is designed to teach players at
-least one new aspect of Fire Emblem's systems. However, the design philosophy of Lyn Mode
-stands in stark contrast to previous games in the series.
-Upon starting a new game, players are required to complete Lyn Mode before moving
-onto the bulk of the game’s content in Eliwood Mode. Subsequent playthroughs do provide the
-option to skip Lyn Mode, however. The map presented in the prologue chapter (Figure 5) is
-incredibly simple, with only two enemy units and only basic grassland for terrain. Selecting main
-character Lyn for the first time introduces a new form of communication for Fire Emblem:
-context-sensitive tutorials. Not only will Lyn comment on what action she should take, but
-additional windows will pop up to directly instruct players on what to do. These windows also
-fall under the Just-in-Time Reminder strategy as they only appear when a unit is selected. In this
-case, the player is taught the very basic action of moving units around the battlefield.
-Additionally, The Sixth Sense strategy is employed by highlighting exactly which tile the player
-should move Lyn to.13 However, the tutorial strictly exerts control over the player’s freedom by
-preventing them from making any action other than the one dictated by the developers. Should
-the player attempt to select a different tile, the game will automatically cancel that action.14
-These restrictions persist throughout the map, eventually culminating in an encounter with the
-boss of the prologue. Here, players are placed in a situation where they would undoubtedly die
-had the game not included a scripted critical hit during the final clash.15 Surprisingly, the game
-does not actually draw attention to mechanics behind critical hits, so the player may be left
-wondering why Lyn dealt extra damage.
-13https://gisst.pomona.edu/play/b2f75735-b356-48ce-8d69-9465de9eb129?replay=af92fc2d-3c43-47da-8
-6bc-aeef32e7ee8c
-14https://gisst.pomona.edu/play/b2f75735-b356-48ce-8d69-9465de9eb129?replay=ea69080d-0b05-4ad0-
-b17d-dbebdd4b3eea
-15https://gisst.pomona.edu/play/b2f75735-b356-48ce-8d69-9465de9eb129?replay=29a74b7b-d713-4666-
-83ad-e516257aefef
+<h2>Fire Emblem: Shadow Dragon and the Blade of Light (FE1)</h2>
 
-<img src="assets/images/example_10_images/image2.png" alt="Chapter 1: Footsteps of Fate">
-Figure 6. Chapter 1: Footsteps of Fate
+<p>
+    Fire Emblem: Shadow Dragon and the Blade of Light (FE1) was originally released in
+    1990 for the Nintendo Entertainment System. As the first game in the Fire Emblem series, FE1
+    had the task of introducing players to mechanics that would become series staples. While the
+    included manual1 provides direct instructions on navigating menus and what different visual
+    elements represent, it does not actually impart to players the skills needed to complete the game
+    successfully. Consequently, the first map (Figure 3) is carefully designed not only to provide the
+    player with a safe area for experimentation, but also to guide the player towards making smart
+    moves without interrupting their play with direct instruction.
+</p>
 
-The second map of Lyn Mode, Chapter 1: Footsteps of Fate (Figure 6), introduces the
-player not only to two new units, but also intermediate mechanics such as different terrain types
-and Fire Emblem’s famous weapon triangle advantage system. Once again, the map forces the
-player to directly follow the developer’s instructions by confining them to predetermined paths.
-For instance, Chapter 1 introduces the cavalier Sain, and instructs the player to have him attack
-an axe-wielding opponent using his lance. This is intended to demonstrate the weapon triangle
-system, where lances are advantageous against swords and weak against axes in that the player
-either receives a bonus or a penalty to their damage and accuracy depending on what kind of
-weapon they attack with. Consequently, the player is forced to engage in a scripted encounter
-where Sain will invariably miss when he attacks16
-, an example of the Demonstration of Action
-principle. Later, the player is again told to make up for Sain’s prior failing by attacking a
-16https://gisst.pomona.edu/play/b2f75735-b356-48ce-8d69-9465de9eb129?replay=8caeb268-82ce-48ac-
-9fde-bd65e6f58cfe
-different opponent with a sword, only to miss again due to the enemy’s advantage of being
-hidden in a forest tile.17 While these lessons do teach the player the consequences of taking
-certain actions, the repeated instances of negative reinforcement and denying player agency can
-prove frustrating. Although Andersen et al. (2012) did not find that limiting a player’s freedom
-had any effect on their enjoyment of a tutorial, FE7’s Lyn Mode is far more expansive and takes
-at least an hour to complete. Consequently, Lyn Mode is quite poorly regarded among fans of the
-series with many complaints citing the frustrating experience of not only being deprived of
-agency for extended periods of time, but also how players are forced to make poor decisions for
-the tutorial’s story to play out18
-. Correspondingly, Johnson’s paper “Animated frustration or the
-ambivalence of player agency” (2015) directly examines how the deprivation of player agency
-can create feelings of frustration in games. For instance, the 2013 game Papers, Please has the
-players take the role of an immigration officer in the fictional country of Arstotzka.
-Consequently, players are bound to a cramped desk and required to complete frequent repetitive
-tasks to simulate the completion of bureaucratic work, all with the knowledge that an
-authoritarian government is judging any mistakes. As such, frustration is an important part of the
-game design, as it is meant to invoke the pressures of not only working in the service industry,
-but also the overwhelming experience of becoming a cog in the authoritarian machine. However,
-even if the loss of agency is in service of gameplay or story, this does not prevent feelings of
-frustration from arising and having a negative impact on the player’s experience.
-In other words, while previous games utilised implicit design methods such as the
-Invisible Hand (possibly due to space constraints), FE7 instead opts to employ more direct
-strategies such as the Just-in-Time Reminder, The Sixth Sense, and Demonstration of Action.
-17https://gisst.pomona.edu/play/b2f75735-b356-48ce-8d69-9465de9eb129?replay=720c3460-dc68-4942-
-acfc-0c514b76972b
-18 https://www.reddit.com/r/fireemblem/comments/9q9bqf/that_damn_tutorial_in_blazing_sword/
-However, Lyn Mode’s tendency to remove agency from the player results in feelings of
-frustration which have impacted the game’s legacy.
+<div class="gisst-Gallery-demo-link">
+   <a href="https://archive.org/details/fire-emblem-dark-dragon-and-the-blade-of-light-manual/page/18/mode/2up">Fire Emblem Manual</a>
+</div>
 
-<img src="assets/images/example_10_images/image1.png" alt="Prologue: The Fall of Renais">
-Figure 7. Prologue: The Fall of Renais
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image4.png?raw=true" alt="Map 1">
+    Figure 3. Chapter 1: Marth Embarks
+</div>
 
-Fire Emblem: The Sacred Stones (FE8) was the third and final title to be released for the
-Game Boy Advance. While not a direct sequel to its predecessor, FE8 borrows a similar art style
-and further expands upon FE7’s multiple paths by providing players with a choice between two
-main characters with differing stories. Most notable, however, is FE8’s introduction of an Easy
-Mode, a series first.
-Upon starting a new game in FE8, players are given the option of selecting between an
-Easy, Normal, and a Difficult mode19
-. While this choice has a significant impact on the design of
-the entire game, asking the player about their familiarity with game mechanics is in line with the
-principle of Assessing Prior Knowledge. This principle allows developers to adjust the amount of
-tutorial present during the game and is often utilised in sequels for games with high replay value.
-19https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?replay=5a09a762-0af8-4309-
-8382-e5cad0f812e1
-In FE8, selecting Easy mode transforms the prologue map (Figure 7) of the game into a
-full-fledged guided tutorial, not unlike FE7’s Lyn Mode, that includes the principles of the
-Just-in-Time Reminder and The Sixth Sense.
-The map for the prologue chapter is extremely small with the majority of the action
-taking place within a one tile high path between two mountains. Consequently, players have little
-choice in where to move their units. This is akin to the concept of Scaffolding, whereby structure
-is used to help ease players into the game. Traditionally, scaffolding means teaching mechanics
-through breaking down challenges into smaller steps. In this case, the first map creates
-bottlenecks to help guide the player towards the goal (defeating the boss), before presenting a
-much more open level design in Chapter 120
-. However, this does result in more limited
-opportunities for the player to experiment with positioning. Upon entering this map on Easy
-mode, players start at the bottom right of the map and are required to move main character Eirika
-to a specific tile towards the top left21
-. The prologue plays out in a very similar fashion to a map
-in Lyn Mode, where players are forced to follow a very specific set of directions to progress. In
-contrast, Normal mode starts the player is the upper left of the map and contains no direct
-instructions22
-. Rather, Normal mode places a greater emphasis on the Seeding in the Cutscene
-principle to inform players of the actions they should take to complete the map. For instance, the
-cutscene has Eirika attempting to tend to the wounds of her companion Seth, but he rebuffs her.
-Consequently, the playable portion of the map starts with Seth at 13/30 HP. Surprisingly, Easy
-mode does not take this as an opportunity to teach players to use healing items and players are
-actually locked out of using their inventory due to the scripted nature of the map.
-20https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?state=2271d1e6-0473-44c8-a
-40c-a665d1766fa3
-21https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?replay=dcd8bfc1-d2c6-4f72-a
-926-9b75a108f1f6
-22https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?replay=f9870901-bc04-451e-
-ba75-c1b285199e2d
-Although Seth follows the Jagen archetype in both story role and character design as a
-paladin, he differs quite heavily from a mechanical standpoint. While Jagen was specifically
-designed for safely engaging with enemies and setting up for weaker units to gain experience
-points, Seth is powerful enough to consistently kill all enemies on this map in a single round of
-combat23
-, including the boss of the prologue24
-. Seth’s dominance continues throughout the game,
-to the point where he is known as one of the most powerful characters mechanically in the entire
-franchise. Some players even argue that Seth himself acts as a difficulty modifier25
-, as using him
-trivialises the majority of content in FE8. In other words, Seth acts as a much more flexible
-instance of difficulty selection, where players can decide on a per map basis of when and where
-to utilise him.
-FE8 marked the introduction of what would become a common feature in future Fire
-Emblem titles: difficulty selection. Consequently, the designers of FE8’s Easy mode followed in
-the footsteps of FE7 by borrowing the design philosophy of Lyn Mode to create a very structured
-tutorial which limits players agency in favour of directly communicating mechanics.
-Throughout its thirty year history, Fire Emblem has experimented heavily with how to
-approach tutorial design. As early games were confined by technological constraints, methods
-had to be devised to communicate lessons implicitly through map design. These games often
-used methods such as Seeding in the Cutscene, Invisible Hand, and Demonstration of Type to
-subtly inform players of gameplay elements and how to interact with mechanics. Subsequent
-hardware improvements allowed future games to include explicit instructions using strategies
-23https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?replay=2321eaf7-8ae0-4f04-a
-9ca-327e8a7ae3dc
-24https://gisst.pomona.edu/play/617780be-e832-42bd-b578-acb0aa864542?replay=754e4537-e58e-46d2-
-8dd5-55eb22d86c49
-25https://www.reddit.com/r/fireemblem/comments/s0ghpy/fe8_is_not_easy_seth_is_just_too_strong_to_be
-including the Just-in-Time Reminder, The Sixth Sense, and Demonstration of Action. However,
-such strategies have had inconsistent implementations, with FE1’s tutorial map being far more
-fondly remembered than FE2’s inaugural map, despite both games utilising similar approaches.
-In spite of occasional missteps, succeeding games in the series took advantage of the lessons
-learned by their predecessors. For instance, the 2017 remake of FE2, the fifteenth game in the
-franchise titled Fire Emblem Echoes: Shadows of Valentia, would even create an entirely new
-prologue map that incorporated both implicit and explicit methods to better introduce players to
-the game’s mechanics. No longer bound by the limitations of technology, Fire Emblem has
-proven that map design is an incredibly versatile way of tutorialising gameplay and the series has
-continued to improve in designing effective ways to increase learnability.
+<p>
+    Throughout the series, Fire Emblem uses the term ‘objective’ to refer to the win
+    condition for each map. Objectives can range from defeating all enemies on the map, defeating a
+    boss, to surviving a certain number of turns. As the first entry in the Fire Emblem series, FE1
+    only makes use of two objectives: Seize (accomplished by occupying a castle tile on a map and
+    selecting the requisite command) and Defeat the Boss. While future games would directly state
+    the objective as a part of the UI, FE1 instead utilises the Seeding in the Cutscene strategy to
+    introduce players to their goal. At the beginning of the map, several of the playable character
+    discuss the inciting action of the game’s story - a group of pirates has attacked Talys, the island
+    kingdom which has been sheltering main character Marth after the hostile takeover of his country
+    of Altea2
+    . After being told the situation by the senior knight, Jagen, and Princess of Talys, Caeda,
+    <a class="gisst-Gallery-demo-link" href="{{ citations[0].link }}" title=" {{ citations[0].description }}">[1]</a>
+    Marth ends the cutscene by stating “Pirates are no match for us! Let’s head back to the castle to
+    rescue the king!”. Players are thus informed of their goal (rescuing the king) organically without
+    any need for extraneous instructions.
+</p>
 
-References
-Andersen, E., O'rourke, E., Liu, Y. E., Snider, R., Lowdermilk, J., Truong, D., ... & Popovic, Z.
-(2012, May). The impact of tutorials on games of varying complexity. In Proceedings of the
-SIGCHI Conference on Human Factors in Computing Systems(pp. 59-68).
-Benvenuti, D., Ferro, L. S., Marrella, A., & Catarci, T. (2023, January). An Approach to Assess
-the Impact of Tutorials in Video Games. In Informatics (Vol. 10, No. 1, p. 6). MDPI.
-Cao, S., & Liu, F. (2022). Learning to play: understanding in-game tutorials with a pilot study on
-implicit tutorials. Heliyon, 8(11).
-Desurvire, H., & Wiberg, C. (2015). User experience design for inexperienced gamers: GAP -
-Game Approachability Principles. Game user experience evaluation, 169-186.
-Johnson, D. (2015). Animated frustration or the ambivalence of player agency. Games and
-Culture, 10(6), 593-612.
-Paras, B. (2006). Learning to play: the design of in-game training to enhance videogame
-experience.
-Poretski, L., & Tang, A. (2022, April). Press a to jump: Design strategies for video game
-learnability. In Proceedings of the 2022 CHI Conference on Human Factors in Computing
-Systems (pp. 1-26).
-Schwerin, M. (2021, September 2). The case for video game tutorials. Wired.
-https://www.wired.com/story/the-case-for-video-game-tutorials/
+<p>
+    First maps are a special case in Fire Emblem as this is the one time when designers know
+    exactly what units the player is using in addition to their stats and equipment. In other words,
+    they are able to design maps with the knowledge of exactly how much damage each unit will
+    deal. This is exemplified in the character of Jagen, a paladin and the player’s sole promoted unit.
+    Jagen has access to two weapons, an Iron Sword and a Silver Lance, both of which have specific
+    use cases. The Silver Lance has the power to defeat any enemy (aside from the boss) in a single
+    round of combat.3 On the other hand, using the Iron Sword will reliably leave an enemy unit with
+    2 HP4
+    , the perfect amount to let another unit safely get the kill and receive a significant amount
+    of experience. This dynamic persists in Fire Emblem: Mystery of the Emblem (FE3) whose first
+    map is a remake of the first game’s. In FE3, Jagen’s sole starting weapon is a Silver Lance.
+    However, units have been balanced so that, once again, Jagen will leave most enemies with a
+    minimal amount of HP5
+    . Compare this to Abel, one of two cavaliers (a weaker version of a
+    paladin) who, like the majority of the player’s starting units, cannot defeat any enemy in a single
+    round of combat.6 Thus, Jagen’s role is clear: He is to be used to either fully remove an enemy
+    from play, or to weaken enemies so the player’s other units can safely defeat them. Furthermore,
+    as a paladin, Jagen’s range of movement is the greatest among the player’s starting units and he
+    starts closest to the enemy units. Consequently, his starting placement allows him to reach the
+    nearest fort (a tile that grants the unit occupying it combat bonuses), making him the only
+    character that can do so. This is an example of the Invisible Hand principle, where the player is
+    guided by cues directly placed in the game world. In other words, Jagen’s placement naturally
+    guides the player to use him, the safest unit to experiment with, to first engage with enemies.
 
+
+    <a class="gisst-Gallery-demo-link" href="{{ citations[1].link }}" title=" {{ citations[1].description }}">[2]</a>
+    <a class="gisst-Gallery-demo-link" href="{{ citations[2].link }}" title=" {{ citations[2].description }}">[3]</a>
+    <a class="gisst-Gallery-demo-link" href="{{ citations[3].link }}" title=" {{ citations[3].description }}">[4]</a>
+    <a class="gisst-Gallery-demo-link" href="{{ citations[4].link }}" title=" {{ citations[4].description }}">[5]</a>
+    <a class="gisst-Gallery-demo-link" href="{{ citations[5].link }}" title=" {{ citations[5].description }}">[6]</a>
+</p>
+
+
+
+<p>
+    Priests, another staple class in Fire Emblem and the preeminent healers, are often
+    introduced very early in the game. However, rather than include a healer as one of the player’s
+    starting roster, FE1 has the player recruit a priest towards the end of the map. By visiting the
+    final village on the left side of the map, the priest Wrys will join the player’s party8
+    . At this point
+    in the map, players will have almost certainly defeated all enemies except for the stationary boss
+    and the majority of their units will have taken damage. Thus, Wrys’ importance to the gameplay
+    is emphasised and players will have the chance to heal before tackling their first boss. Priests are
+    not able to heal units that have full HP, so introducing Wrys any earlier would simply leave
+    players with a unit unable to take any action other than move. Introducing Wrys late also helps
+    keep him safe as players experimenting with movement on the first turn will not be able to
+    immediately put him in danger.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[6].link }}" title=" {{ citations[6].description }}">[7]</a>
+
+
+<p>
+    A further important aspect of Fire Emblem map design is pressure. Often, there will be
+    some sort of mechanic that encourages players to not play slow and defensively. This first map
+    introduces such a mechanic when the player ends their first turn9
+    . The Computer’s turn will see
+    one enemy pirate on the left side of the map move down to occupy a village, while a thief on the
+    right side will move up from an already destroyed village towards another one. This is akin to the
+    Demonstration of Type principle in the GAP, where players are shown an example of a mechanic
+    to encourage a certain response. The thief’s movement teaches the player several things. One,
+    that villages can be targeted by enemy units, and two, thieves will prioritise pillaging villages
+    over attacking the player. Even if you leave the thief alone for the first turn, they will not be able
+    to reach the village, so even players unfamiliar with how thieves work will have time to deal
+    with them on the second turn.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[7].link }}" title=" {{ citations[7].description }}">[8]</a>
+
+<p>
+    Despite being the first map in the entire Fire Emblem franchise, the inaugural chapter of
+    FE1 is incredibly successful at incorporating the GAP and learnability framework into the map’s
+    design to effectively teach players mechanics that will be used throughout Fire Emblem’s history.
+    Techniques such as Seeding in the Cutscene, Invisible Hand, and Demonstration of Type are all
+    utilised to implicitly communicate important lessons to the player in spite of the constraints
+    imposed by the size limitations pertinent to game systems of the time.
+</p>
+
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image4.png?raw=true" alt="Act 1: Ram Woods Battle">
+    Figure 4. Act 1: Ram Woods Battle
+</div>
+
+<h2>Fire Emblem Gaiden (FE2)</h2>
+
+<p>
+    Released two years after FE1 in 1992, Fire Emblem Gaiden (FE2) was presented as a
+    side-story to its predecessor with an entirely new cast and set on a different continent (Figure 4).
+    Even more so than future titles in the franchise, FE2 experimented heavily with its mechanics
+    and deviated in quite a few ways from its predecessor, including in how the developers
+    abandoned many of the elements that made FE1’s first map successful.
+    While FE1’s map contains varied terrain, including forests, mountains, water, and several
+    different interactable buildings, FE2’s map only makes use of two types of unique tiles: forests
+    and healing tiles. The map is additionally far smaller than that of FE1’s, limiting the player’s
+    ability to make meaningful decisions with movement. Although the predominantly green colour
+    palette highlights the pink healing tiles in the upper left corner, there is no text in the game that
+    explains to the player what they are or how they work. Furthermore, these tiles are placed far
+    enough away that it would take any unit at least two turns to reach them10
+    . Given that the goal of
+    this map is to defeat all the enemies, it is unlikely that the player will have any incentive to take
+    the time to explore what these tiles do. In FE2, if an enemy is sufficiently weakened, their AI
+    will switch from prioritising attacking any units in range to reaching the nearest healing tile11
+    .
+    However, it is improbable that any player is going to allow a low-HP enemy to escape for several
+    turns to make it all the way to the top left corner and wait to restore HP. Consequently, the
+    placement of these tiles does a poor job at teaching the players what they do and what their role
+    in a map’s design is.
+    Whereas FE1’s first map gives the player access to six classes across seven starting units
+    (and additionally the priest class supplied by Wrys if he is recruited), FE2 only provides three
+    classes spread across five units. Three of the units are villagers, a starting class with poor stats
+    but flexible promotion (Fire Emblem’s manner of upgrading classes) options. The other two units
+    are Alm, a level 1 fighter, and Lukas, a level 2 soldier and the closest equivalent to Jagen on this
+    map. In other words, all five starting units are very functionally similar: they are all foot soldiers
+    who have limited movement capabilities and short-ranged weapons. In comparison, FE1
+    introduces armoured units (slow with low movement range but high defense), archers (wield
+    ranged weapons such as bows), and pegasus knights (can move over any kind of terrain but weak
+    to bows). Consequently, players are given a much more limited introduction to the types of
+    mechanics they will encounter across the game.
+    This introductory map does make use of Invisible Hand principle in a similar fashion to
+    FE1 where the strongest units have a starting position that results in their max movement range
+    corresponding with the placement of the nearest forest tiles. Thus, players are drawn to placing
+    their units there and naturally discovering how units placed with forests are given avoidance
+    bonuses12
+    . As neither of these units are strong enough to fully defeat enemy units in a single turn
+    (barring a lucky critical hit), this positioning is ideal for creating a situation where weaker units
+    can finish foes off for experience points. Consequently, the successes of FE2’s first map are in
+    the places in which it utilises the same design principles as FE1 such as the Invisible Hand.
+    While FE1 makes use of a large but carefully structured design to slowly guide the players
+    through a path that introduces different mechanics consecutively, FE2’s much smaller map
+    struggles to properly communicate how these gameplay systems work.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[8].link }}" title=" {{ citations[8].description }}">[9]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[9].link }}" title=" {{ citations[9].description }}">[10]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[10].link }}" title=" {{ citations[10].description }}">[11]</a>
+
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image6.png?raw=true" alt="Prologue: A Girl from the Plains">
+    Figure 5. Prologue: A Girl from the Plains
+</div>
+
+<h2>Fire Emblem: The Blazing Sword (FE7)</h2>
+
+<p>
+    Fire Emblem: The Blazing Sword (FE7), released internationally for the Game Boy
+    Advance in 2003 as just Fire Emblem, was the first game in the franchise to be published outside
+    of Japan. While FE6, Fire Emblem’s first foray into handheld systems contained an optional
+    tutorial, FE7 marked the first time a Fire Emblem game was released with a dedicated tutorial
+    level. In fact, the first ten chapters of the game, a section known as Lyn Mode (named after the
+    protagonist of these chapters, Lyn), serves as an extended how-to manual for the game’sz
+    mechanics. Every chapter in this introductory section of the game is designed to teach players at
+    least one new aspect of Fire Emblem's systems. However, the design philosophy of Lyn Mode
+    stands in stark contrast to previous games in the series.
+    Upon starting a new game, players are required to complete Lyn Mode before moving
+    onto the bulk of the game’s content in Eliwood Mode. Subsequent playthroughs do provide the
+    option to skip Lyn Mode, however. The map presented in the prologue chapter (Figure 5) is
+    incredibly simple, with only two enemy units and only basic grassland for terrain. Selecting main
+    character Lyn for the first time introduces a new form of communication for Fire Emblem:
+    context-sensitive tutorials. Not only will Lyn comment on what action she should take, but
+    additional windows will pop up to directly instruct players on what to do. These windows also
+    fall under the Just-in-Time Reminder strategy as they only appear when a unit is selected. In this
+    case, the player is taught the very basic action of moving units around the battlefield.
+    Additionally, The Sixth Sense strategy is employed by highlighting exactly which tile the player
+    should move Lyn to.13 However, the tutorial strictly exerts control over the player’s freedom by
+    preventing them from making any action other than the one dictated by the developers. Should
+    the player attempt to select a different tile, the game will automatically cancel that action.14
+    These restrictions persist throughout the map, eventually culminating in an encounter with the
+    boss of the prologue. Here, players are placed in a situation where they would undoubtedly die
+    had the game not included a scripted critical hit during the final clash.15 Surprisingly, the game
+    does not actually draw attention to mechanics behind critical hits, so the player may be left
+    wondering why Lyn dealt extra damage.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[11].link }}" title=" {{ citations[11].description }}">[12]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[13].link }}" title=" {{ citations[13].description }}">[14]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[14].link }}" title=" {{ citations[14].description }}">[15]</a>
+
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image2.png?raw=true" alt="Chapter 1: Footsteps of Fate">
+    Figure 6. Chapter 1: Footsteps of Fate
+</div>
+
+<p>
+    The second map of Lyn Mode, Chapter 1: Footsteps of Fate (Figure 6), introduces the
+    player not only to two new units, but also intermediate mechanics such as different terrain types
+    and Fire Emblem’s famous weapon triangle advantage system. Once again, the map forces the
+    player to directly follow the developer’s instructions by confining them to predetermined paths.
+    For instance, Chapter 1 introduces the cavalier Sain, and instructs the player to have him attack
+    an axe-wielding opponent using his lance. This is intended to demonstrate the weapon triangle
+    system, where lances are advantageous against swords and weak against axes in that the player
+    either receives a bonus or a penalty to their damage and accuracy depending on what kind of
+    weapon they attack with. Consequently, the player is forced to engage in a scripted encounter
+    where Sain will invariably miss when he attacks16
+    , an example of the Demonstration of Action
+    principle. Later, the player is again told to make up for Sain’s prior failing by attacking a
+    different opponent with a sword, only to miss again due to the enemy’s advantage of being
+    hidden in a forest tile.17 While these lessons do teach the player the consequences of taking
+    certain actions, the repeated instances of negative reinforcement and denying player agency can
+    prove frustrating. Although Andersen et al. (2012) did not find that limiting a player’s freedom
+    had any effect on their enjoyment of a tutorial, FE7’s Lyn Mode is far more expansive and takes
+    at least an hour to complete. Consequently, Lyn Mode is quite poorly regarded among fans of the
+    series with many complaints citing the frustrating experience of not only being deprived of
+    agency for extended periods of time, but also how players are forced to make poor decisions for
+    the tutorial’s story to play out18
+    . Correspondingly, Johnson’s paper “Animated frustration or the
+    ambivalence of player agency” (2015) directly examines how the deprivation of player agency
+    can create feelings of frustration in games. For instance, the 2013 game Papers, Please has the
+    players take the role of an immigration officer in the fictional country of Arstotzka.
+    Consequently, players are bound to a cramped desk and required to complete frequent repetitive
+    tasks to simulate the completion of bureaucratic work, all with the knowledge that an
+    authoritarian government is judging any mistakes. As such, frustration is an important part of the
+    game design, as it is meant to invoke the pressures of not only working in the service industry,
+    but also the overwhelming experience of becoming a cog in the authoritarian machine. However,
+    even if the loss of agency is in service of gameplay or story, this does not prevent feelings of
+    frustration from arising and having a negative impact on the player’s experience.
+    In other words, while previous games utilised implicit design methods such as the
+    Invisible Hand (possibly due to space constraints), FE7 instead opts to employ more direct
+    strategies such as the Just-in-Time Reminder, The Sixth Sense, and Demonstration of Action.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[15].link }}" title=" {{ citations[15].description }}">[16]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[16].link }}" title=" {{ citations[16].description }}">[17]</a>
+<a class="gisst-Gallery-demo-link" href="https://www.reddit.com/r/fireemblem/comments/9q9bqf/that_damn_tutorial_in_blazing_sword/">[18]</a>
+
+<p>
+    However, Lyn Mode’s tendency to remove agency from the player results in feelings of
+    frustration which have impacted the game’s legacy.
+</p>
+
+<div class="gisst-Gallery-highlight-box">
+    <img src="https://github.com/shftgroup/gisst-website/blob/example_10/assets/images/example_10_images/image1.png?raw=true" alt="Prologue: The Fall of Renais">
+    Figure 7. Prologue: The Fall of Renais
+</div>
+
+<h2>Fire Emblem: The Sacred Stones (FE8)</h2>
+
+<p>
+    Fire Emblem: The Sacred Stones (FE8) was the third and final title to be released for the
+    Game Boy Advance. While not a direct sequel to its predecessor, FE8 borrows a similar art style
+    and further expands upon FE7’s multiple paths by providing players with a choice between two
+    main characters with differing stories. Most notable, however, is FE8’s introduction of an Easy
+    Mode, a series first.
+    Upon starting a new game in FE8, players are given the option of selecting between an
+    Easy, Normal, and a Difficult mode19
+    . While this choice has a significant impact on the design of
+    the entire game, asking the player about their familiarity with game mechanics is in line with the
+    principle of Assessing Prior Knowledge. This principle allows developers to adjust the amount of
+    tutorial present during the game and is often utilised in sequels for games with high replay value.
+    In FE8, selecting Easy mode transforms the prologue map (Figure 7) of the game into a
+    full-fledged guided tutorial, not unlike FE7’s Lyn Mode, that includes the principles of the
+    Just-in-Time Reminder and The Sixth Sense.
+    The map for the prologue chapter is extremely small with the majority of the action
+    taking place within a one tile high path between two mountains. Consequently, players have little
+    choice in where to move their units. This is akin to the concept of Scaffolding, whereby structure
+    is used to help ease players into the game. Traditionally, scaffolding means teaching mechanics
+    through breaking down challenges into smaller steps. In this case, the first map creates
+    bottlenecks to help guide the player towards the goal (defeating the boss), before presenting a
+    much more open level design in Chapter 120
+    . However, this does result in more limited
+    opportunities for the player to experiment with positioning. Upon entering this map on Easy
+    mode, players start at the bottom right of the map and are required to move main character Eirika
+    to a specific tile towards the top left21
+    . The prologue plays out in a very similar fashion to a map
+    in Lyn Mode, where players are forced to follow a very specific set of directions to progress. In
+    contrast, Normal mode starts the player is the upper left of the map and contains no direct
+    instructions22
+    . Rather, Normal mode places a greater emphasis on the Seeding in the Cutscene
+    principle to inform players of the actions they should take to complete the map. For instance, the
+    cutscene has Eirika attempting to tend to the wounds of her companion Seth, but he rebuffs her.
+    Consequently, the playable portion of the map starts with Seth at 13/30 HP. Surprisingly, Easy
+    mode does not take this as an opportunity to teach players to use healing items and players are
+    actually locked out of using their inventory due to the scripted nature of the map.
+    Although Seth follows the Jagen archetype in both story role and character design as a
+    paladin, he differs quite heavily from a mechanical standpoint. While Jagen was specifically
+    designed for safely engaging with enemies and setting up for weaker units to gain experience
+    points, Seth is powerful enough to consistently kill all enemies on this map in a single round of
+    combat23
+    , including the boss of the prologue24
+    . Seth’s dominance continues throughout the game,
+    to the point where he is known as one of the most powerful characters mechanically in the entire
+    franchise. Some players even argue that Seth himself acts as a difficulty modifier25
+    , as using him
+    trivialises the majority of content in FE8. In other words, Seth acts as a much more flexible
+    instance of difficulty selection, where players can decide on a per map basis of when and where
+    to utilise him.
+    FE8 marked the introduction of what would become a common feature in future Fire
+    Emblem titles: difficulty selection. Consequently, the designers of FE8’s Easy mode followed in
+    the footsteps of FE7 by borrowing the design philosophy of Lyn Mode to create a very structured
+    tutorial which limits players agency in favour of directly communicating mechanics.
+    Throughout its thirty year history, Fire Emblem has experimented heavily with how to
+    approach tutorial design. As early games were confined by technological constraints, methods
+    had to be devised to communicate lessons implicitly through map design. These games often
+    used methods such as Seeding in the Cutscene, Invisible Hand, and Demonstration of Type to
+    subtly inform players of gameplay elements and how to interact with mechanics. Subsequent
+    hardware improvements allowed future games to include explicit instructions using strategies
+    including the Just-in-Time Reminder, The Sixth Sense, and Demonstration of Action. However,
+    such strategies have had inconsistent implementations, with FE1’s tutorial map being far more
+    fondly remembered than FE2’s inaugural map, despite both games utilising similar approaches.
+    In spite of occasional missteps, succeeding games in the series took advantage of the lessons
+    learned by their predecessors. For instance, the 2017 remake of FE2, the fifteenth game in the
+    franchise titled Fire Emblem Echoes: Shadows of Valentia, would even create an entirely new
+    prologue map that incorporated both implicit and explicit methods to better introduce players to
+    the game’s mechanics. No longer bound by the limitations of technology, Fire Emblem has
+    proven that map design is an incredibly versatile way of tutorialising gameplay and the series has
+    continued to improve in designing effective ways to increase learnability.
+</p>
+
+<a class="gisst-Gallery-demo-link" href="{{ citations[18].link }}" title=" {{ citations[18].description }}">[19]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[19].link }}" title=" {{ citations[19].description }}">[20]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[20].link }}" title=" {{ citations[20].description }}">[21]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[21].link }}" title=" {{ citations[21].description }}">[22]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[22].link }}" title=" {{ citations[22].description }}">[23]</a>
+<a class="gisst-Gallery-demo-link" href="{{ citations[23].link }}" title=" {{ citations[23].description }}">[24]</a>
+<a class="gisst-Gallery-demo-link" href="https://www.reddit.com/r/fireemblem/comments/s0ghpy/fe8_is_not_easy_seth_is_just_too_strong_to_be">[25]</a>
+
+<div class="gisst-Gallery-section-divider"></div>
+
+<div class="gisst-Gallery-bibliography">
+    <h2>References</h2>
+    <ol>
+        <li>Andersen, E., O'rourke, E., Liu, Y. E., Snider, R., Lowdermilk, J., Truong, D., ... &amp; Popovic, Z.
+        (2012, May). The impact of tutorials on games of varying complexity. In Proceedings of the
+        SIGCHI Conference on Human Factors in Computing Systems(pp. 59-68).</li>
+        <li>Benvenuti, D., Ferro, L. S., Marrella, A., &amp; Catarci, T. (2023, January). An Approach to Assess
+        the Impact of Tutorials in Video Games. In Informatics (Vol. 10, No. 1, p. 6). MDPI.</li>
+        <li>Cao, S., &amp; Liu, F. (2022). Learning to play: understanding in-game tutorials with a pilot study on
+        implicit tutorials. Heliyon, 8(11).</li>
+        <li>Desurvire, H., &amp; Wiberg, C. (2015). User experience design for inexperienced gamers: GAP -
+        Game Approachability Principles. Game user experience evaluation, 169-186.</li>
+        <li>Johnson, D. (2015). Animated frustration or the ambivalence of player agency. Games and
+        Culture, 10(6), 593-612.</li>
+        <li>Paras, B. (2006). Learning to play: the design of in-game training to enhance videogame
+        experience.</li>
+        <li>Poretski, L., &amp; Tang, A. (2022, April). Press a to jump: Design strategies for video game
+        learnability. In Proceedings of the 2022 CHI Conference on Human Factors in Computing
+        Systems (pp. 1-26).</li>
+        <li>Schwerin, M. (2021, September 2). The case for video game tutorials. Wired.
+        https://www.wired.com/story/the-case-for-video-game-tutorials/</li>
+    </ol>
+</div>
