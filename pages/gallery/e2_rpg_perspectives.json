@@ -1,19 +1,11 @@
 {
   "citations": [
-   {
-      "description": "Placeholder 4 now",
-      "link": "https://gisst.pomona.edu/data/instance?state=state1",
-      "state": "state1",
-      "replay": "",
-      "instance": "instance1"
-    }, 
     {
-      "description": "Placeholder 4 now",
-      "link": "https://gisst.pomona.edu/data/instance?replay=replay1",
+      "description": "1",
+      "link": "https://gisst.pomona.edu/play/caa1aab5-802e-4585-9a23-f4ff6d7b2136?replay=92e84380-de3b-4389-87d6-df6dd6878d1d",
       "state": "",
-      "replay": "replay1",
-      "instance": "instance2"
+      "replay": "92e84380-de3b-4389-87d6-df6dd6878d1d",
+      "instance": ""
     }
   ]
 }
-
